@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Coaching for NEET and IIT in Indore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+
+            <nav>
+                <a href="index.html"><img src="./image/logo png.png" alt=""></a>
+
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="#course">
+                        <li>Course</li>
+                    </a>
+                    <a href="">
+                        <li>Result</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About Us</li>
+                    </a>
+                    <a href="#testimonial">
+                        <li>Testimonial</li>
+                    </a>
+                    <a href="">
+                        <li>Blog</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>Contact Us</li>
+                    </a>
+                </ul>
+
+
+                <!-- Hamburger -->
+                <div class="hamburger">
+                    <img src="./image/ham.png" alt="">
+                </div>
+            </nav>
+
+        </div>
+
+        <div class="about-hero-container">
+            <h2>Blogs</h2>
+            <p>"आपकी तैयारी हमारी ज़िम्मेदारी"</p>
+
+        </div>
+
+
+    </header>
+
+    <section class="content">
+        <div class="blog-description-container">
+            <div class="blog-description">
+                <h1 class="title"></h1>
+                <p class="blog-content"></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-container">
+        <div class="footer-section">
+            <div class="left">
+                <a href=""><img src="./image/Asset 13.png" alt=""></a>
+                <p>Navodayan Academy is a premier institute in Indore dedicated to the preparation of NEET and IIT
+                    exams. Our team of experts is committed to your success, putting in every effort to ensure that you
+                    achieve your academic goals. At Navodayan Academy, we take full responsibility for your preparation,
+                    providing you with the guidance, resources, and support needed to excel. Your success is our
+                    mission, and we are here to make it a reality.</p>
+                <div class="social-media">
+                    <a href=""><img src="./image/instagram.png" alt="" srcset=""></a>
+                    <a href=""><img src="./image/facebook.png" alt="" srcset=""></a>
+                    <a href=""><img src="./image/whatsapp.png" alt="" srcset=""></a>
+                    <a href=""><img src="./image/youtube.png" alt="" srcset=""></a>
+                </div>
+
+            </div>
+            <div class="middle">
+                <h2>Useful Links</h2>
+                <ul class="nav-links">
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="#course">
+                        <li>Course</li>
+                    </a>
+                    <a href="result.html">
+                        <li>Result</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About Us</li>
+                    </a>
+                    <a href="index.html#testimonial">
+                        <li>Testimonial</li>
+                    </a>
+                    <a href="">
+                        <li>Blog</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>Contact Us</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="right">
+                <h2>Our Center</h2>
+                <h3>
+                    <Address> Kuber House, 162 Kanchan Bagh, Gita Bhawan Rd, Square, Indore, Madhya Pradesh 452001
+                    </Address>
+                </h3>
+                <h3>Contact Number : +91 9111616611</h3>
+                <h3>Email : navodayanacademy03@gmail.com </h3>
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+        const h1 = document.querySelector(".title")
+        const p = document.querySelector(".blog-content")
+        console.log(localStorage)
+
+        const blogTitle = localStorage.getItem("title")
+        const blogContent =localStorage.getItem("content")
+
+        h1.innerText = blogTitle;
+        p.innerText=blogContent;
+    </script>
+
+    <script src="ham.js"></script>
+    </body>
